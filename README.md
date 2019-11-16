@@ -1,1 +1,1 @@
-**ALL University Codes and projects in one repository**
+**All University codes and projects in one repository**

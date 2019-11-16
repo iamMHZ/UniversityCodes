@@ -10,7 +10,7 @@ class AmazonCrawler(CrawlSpider):
     rules = (Rule(LinkExtractor(), callback='parser'),)
 
     def parser(self, response):
-        names = response.css('.c-product__title-en::text').extract()
+        names = response.css('.c-product-box__title::text').extract()
         # prices = response.css('.a-price-whole::text').extract()
 
         # for price in prices:

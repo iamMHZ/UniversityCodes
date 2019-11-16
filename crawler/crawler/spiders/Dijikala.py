@@ -15,10 +15,10 @@ class AmazonCrawler(CrawlSpider):
 
         # for price in prices:
         #     print('\nPRICE : ' + str(price))
-        #     with open('AmazonPrices.txt' ,'a') as f  :
+        #     with open('DigikalaPrices.txt' ,'a') as f  :
         #         f.write( str(price) +'\n')
 
         for name in names:
             print('\nNMAE: ' + name + '\n')
-            with open('Amazon_Laptops.txt', 'a') as f:
+            with open('DigikalaLaptops.txt', 'a') as f:
                 f.write(name + '\n')

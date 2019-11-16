@@ -3,7 +3,7 @@ from scrapy.linkextractors import LinkExtractor
 
 
 class AmazonCrawler(CrawlSpider):
-    name = 'digikala_crawler'
+    name = 'digikala'
 
     start_urls = ['https://www.digikala.com/search/category-notebook-netbook-ultrabook/?pageno=1&sortby=4']
 

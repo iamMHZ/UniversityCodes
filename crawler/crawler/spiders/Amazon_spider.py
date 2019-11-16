@@ -24,9 +24,3 @@ class AmazonCrawler(CrawlSpider):
             print('\nNMAE: ' + name + '\n')
             with open('Amazon_Laptops.txt', 'a') as f:
                 f.write(name + '\n')
-
-# <div class="a-section octopus-pc-asin-title">
-#         <span class="a-size-base a-color-base">
-#             Acer Predator Helios 300 Gaming Laptop PC, 15.6 inches Full HD 144Hz 3ms IPS Display, Intel i7-9750H, GTX 1660 Ti 6GB, 16GB DDR4, 256GB PCIe NVMe SSD, Backlit Keyboard, PH315-52-78VL
-#         </span>
-#     </div>

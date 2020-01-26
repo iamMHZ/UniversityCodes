@@ -1,4 +1,4 @@
-<h1>All University codes and projects in one repository</h1>
+<h1>This repository contains all of my university codes and projects</h1>
 
 <br>
 <h3> Airport management: </h3>

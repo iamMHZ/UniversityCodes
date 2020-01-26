@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="745.0" style="-fx-background-color: #75161f;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.Controller">
+   <children>
+      <TabPane fx:id="dashboardPane" prefHeight="510.0" prefWidth="745.0" style="-fx-background-color: #666666;" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Info">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #a1280d;">
+                     <children>
+                        <ListView fx:id="ticketListView" layoutX="297.0" layoutY="88.0" prefHeight="309.0" prefWidth="372.0" style="-fx-background-color: white;" />
+                        <Button fx:id="exitBtn" layoutX="15.0" layoutY="414.0" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="179.0" text="Sign out" />
+                        <Label fx:id="customerInfoLable" alignment="TOP_LEFT" layoutX="15.0" layoutY="89.0" prefHeight="307.0" prefWidth="256.0" style="-fx-background-color: white;" textFill="#030000">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="696.0" layoutY="88.0" prefHeight="21.0" prefWidth="19.0" text="S" textAlignment="RIGHT">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                           <font>
+                              <Font name="Ebrima" size="31.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="418.0" layoutY="53.0" prefHeight="7.0" prefWidth="180.0" text="Your tickets">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="695.0" layoutY="130.0" text="A">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                           <font>
+                              <Font size="31.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="693.0" layoutY="181.0" text="M">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="695.0" layoutY="220.0" text="A">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                           <font>
+                              <Font size="31.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="695.0" layoutY="266.0" text="A">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                           <font>
+                              <Font size="31.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="700.0" layoutY="312.0" text="I">
+                           <font>
+                              <Font size="31.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Label layoutX="696.0" layoutY="358.0" text="R">
+                           <font>
+                              <Font size="31.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Purchase">
+            <content>
+              <AnchorPane fx:id="ticketDate" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #a1280d;">
+                     <children>
+                        <DatePicker fx:id="datePicker" layoutX="41.0" layoutY="134.0" promptText="Date" />
+                        <ComboBox fx:id="originCombobox" layoutX="283.0" layoutY="134.0" prefWidth="150.0" promptText="origin" />
+                        <ComboBox fx:id="destinationComboBox" layoutX="473.0" layoutY="134.0" onAction="#comboBoxChanged" prefWidth="150.0" promptText="destination" />
+                        <Label fx:id="labelPrice" layoutX="486.0" layoutY="197.0" prefHeight="26.0" prefWidth="124.0" />
+                        <Button fx:id="purchaseBtn" layoutX="283.0" layoutY="194.0" mnemonicParsing="false" onAction="#onClick" prefHeight="32.0" prefWidth="143.0" text="purchase" />
+                        <Label fx:id="priceLabel" layoutX="549.0" layoutY="200.0" prefHeight="46.0" prefWidth="149.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Label fx:id="discoutLabel" layoutX="250.0" layoutY="25.0" prefHeight="80.0" prefWidth="447.0" textAlignment="RIGHT">
+                           <font>
+                              <Font name="System Bold Italic" size="18.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="-3.0" prefHeight="14.0" prefWidth="181.0" text="SAMA AIR">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Cancel">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #a1280d;">
+                     <children>
+                        <TextField fx:id="cancelTicketTextField" alignment="TOP_RIGHT" layoutX="214.0" layoutY="131.0" prefHeight="32.0" prefWidth="285.0" promptText="Enter ticket id" />
+                        <Button fx:id="cancelTicketBtn" layoutX="270.0" layoutY="180.0" mnemonicParsing="false" onAction="#onClick" prefWidth="174.0" text="Cancel ticket" />
+                        <Label layoutX="14.0" prefHeight="26.0" prefWidth="174.0" text="SAMA AIR">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <AnchorPane fx:id="singUpPane" prefHeight="510.0" prefWidth="745.0" style="-fx-background-color: #a1280d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="singInFullName" layoutX="250.0" layoutY="119.0" prefHeight="26.0" prefWidth="228.0" promptText="Full name" />
+            <TextField fx:id="singInNationalID" layoutX="250.0" layoutY="159.0" prefHeight="18.0" prefWidth="228.0" promptText="PIN" />
+            <TextField fx:id="singInUsername" layoutX="250.0" layoutY="242.0" prefHeight="18.0" prefWidth="228.0" promptText="Username" />
+            <Button fx:id="registerBtn" layoutX="302.0" layoutY="385.0" mnemonicParsing="false" onAction="#onClick" prefHeight="26.0" prefWidth="106.0" text="Register" />
+            <PasswordField fx:id="singInPassword" layoutX="250.0" layoutY="285.0" prefHeight="26.0" prefWidth="228.0" promptText="Password" />
+            <PasswordField fx:id="singInConfirmPassword" layoutX="250.0" layoutY="328.0" prefHeight="31.0" prefWidth="228.0" promptText="Confirm password" />
+            <TextField fx:id="singUpPhoneNumber" layoutX="250.0" layoutY="200.0" prefHeight="18.0" prefWidth="228.0" promptText="Phone number" />
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="40.0" prefWidth="83.0" text="SAMA AIR">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="loginPane" prefHeight="510.0" prefWidth="745.0" style="-fx-background-color: #a1280d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="loginUsername" layoutX="21.0" layoutY="149.0" prefHeight="26.0" prefWidth="228.0" promptText="Username" />
+            <Button fx:id="logInBtn" layoutX="21.0" layoutY="240.0" mnemonicParsing="false" onAction="#onClick" prefHeight="31.0" prefWidth="106.0" text="Sign in ">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="singUpBtn" layoutX="149.0" layoutY="240.0" mnemonicParsing="false" onAction="#onClick" prefHeight="23.0" prefWidth="100.0" text="Register">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <PasswordField fx:id="loginPassword" layoutX="21.0" layoutY="194.0" prefHeight="26.0" prefWidth="228.0" promptText="Password" />
+            <Label layoutX="21.0" layoutY="27.0" prefHeight="80.0" prefWidth="228.0" text="SAMA AIR">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.44660194174757284">
+                     <stops>
+                        <Stop color="#251222" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="175.0" fitWidth="318.0" layoutX="360.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resource/image.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

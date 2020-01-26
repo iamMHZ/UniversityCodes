@@ -18,6 +18,6 @@
 <img src="https://github.com/iamMHZ/UniversityCodes/blob/master/AirportManagement/src/application/resource/screenshots/6.JPG" alt="screenshot" >
 <br>
 <h2>NOTE: </h2>
-<p>For Running without any errors you need to change baseFilePath in FileManager class to  **your root path**/resource/files </p>
+<p><em>For Running without any errors you need to change baseFilePath in FileManager class to  <b>your root path**</b>/resource/files </em></p>
 <img src="https://github.com/iamMHZ/UniversityCodes/blob/master/AirportManagement/src/application/resource/screenshots/0.JPG" alt="screenshot" >
 <br>

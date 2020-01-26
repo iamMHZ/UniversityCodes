@@ -22,7 +22,7 @@ public class Main extends Application {
 		Parent parent = FXMLLoader.load(getClass().getResource("/application/View.fxml"));
 
 		Scene scene = new Scene(parent);
-		stage.setTitle("Shortest path");
+		stage.setTitle("N-Queens");
 		stage.setScene(scene);
 		stage.show();
 

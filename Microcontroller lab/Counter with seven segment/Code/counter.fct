@@ -1,0 +1,2 @@
+main DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"counter.c" LINE:59
+updateIndexes DSTACK_USAGE:4 DSTACK_LEVEL:6 FILE:"counter.c" LINE:37

@@ -1,0 +1,24 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+sevenSegDelay                                                                     0x0160       4
+numbers                                                                           0x0164       8
+keypadDelay                                                                       0x016C       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+index                                                                             R4,R5        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+deactivateAllComs                                                                 0x00066      5
+updateSevenSegment                                                                0x0006B     36
+updateIndex                                                                       0x0008F     11
+checkKeypad                                                                       0x0009A    103
+main                                                                              0x00101     50
